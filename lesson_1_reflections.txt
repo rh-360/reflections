@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    'diff' does the work of comparing and isolates and displays the differences between two files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It can help avoid making mistakes that have previously been made and 'documented' in the file history. It can also help sharpen coding skills by seeing what other coders have done.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commits are typically at points that make sense in terms of code development but are vulnerable to human error like forgetting to do it. Automatic commits eliminate human error but also may not be at convenient/logical points of code development.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Presumably, the multiple files committed are logically connected and developed/editted simultaneously.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log  = log (history) of file changes
+    git diff = log (history) of the comparison of two files
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Well, using version control allows the coder to more easily revert to a previously functioning version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    ...coding for my own projects.
+
+How do the diagrams help you visualize the branch structure?
+
+	They help by visualizing them as they're called, i.e., like branches of a tree.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It is represented having two parents because two branches are being merged together.
+
