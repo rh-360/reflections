@@ -6,12 +6,19 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Some local commits may not be in final publishable form.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are locally cloned repositories on the (remote) GitHub system.
+    Use when cloning to a PC is undesirable.
+
+    Clones are full yet snapshot-in-time commit histories of a repository.
+    Use when editting files locally on a PC and then pushing to the GitHub system.
+
+    Branches are commit histories not merged to the master commit history.
+    Use when developing additional functionality, debugging, etc.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
