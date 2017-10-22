@@ -23,12 +23,17 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This is beneficial if something should happen to the last known state
+    of the remote commit history and it has to be restored.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Collaborating without Git or GitHub would be more difficult. Without these tools
+    perhaps the best thing to would be to require each coder to log the filenames
+    of the files they modify and send only those files to other members. I don't
+    know -- sounds like it'd be too easy to make a mess of things... just get 
+    used to Git and GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
